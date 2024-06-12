@@ -28,10 +28,10 @@ if quick
     levs = collect(1.0:72)
     s_per_timestep = 300
 else
-    lons = collect(-130.0:0.3125:-60.0)
-    lats = collect(9.75:0.25:60.0)
-    levs = collect(1.0:30) # About 11 km: https://wiki.seas.harvard.edu/geos-chem/index.php/GEOS-Chem_vertical_grids
-    s_per_timestep = 100
+    lons = collect(-129.975:2:-61.975)
+    lats = collect(17.025:2:59.025)
+    levs = collect(1.0:72) # About 11 km: https://wiki.seas.harvard.edu/geos-chem/index.php/GEOS-Chem_vertical_grids
+    s_per_timestep = 300
 end
 
 write_interval = 3600.0 # seconds
